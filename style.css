@@ -1,0 +1,112 @@
+/* ===== MAIN APP ===== */
+
+.stApp {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* ===== TITLE ===== */
+
+h1 {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/* ===== TEXT ===== */
+
+p, label, span {
+    color: #d1d5db;
+}
+
+/* ===== TEXT AREA ===== */
+
+textarea {
+    background-color: #1e1e1e !important;
+    color: #ffffff !important;
+    border: 2px solid #404040 !important;
+    border-radius: 12px !important;
+    padding: 12px !important;
+}
+
+textarea:focus {
+    border: 2px solid #2563eb !important;
+}
+
+/* ===== INPUT CONTAINER ===== */
+
+[data-testid="stTextArea"] {
+    background-color: transparent;
+}
+
+/* ===== BUTTON ===== */
+
+.stButton > button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    height: 50px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.stButton > button:hover {
+    background-color: #1d4ed8;
+    transform: scale(1.02);
+}
+
+/* ===== SUCCESS BOX ===== */
+
+.stSuccess {
+    background-color: #1e3a2f !important;
+    color: #ffffff !important;
+    border-radius: 12px !important;
+}
+
+/* ===== SIDEBAR ===== */
+
+section[data-testid="stSidebar"] {
+    background-color: #1a1a1a;
+}
+
+/* ===== CHART AREA ===== */
+
+.js-plotly-plot {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+/* ===== IMAGE ===== */
+
+img {
+    border-radius: 15px;
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+}
+
+/* ===== DIVIDER ===== */
+
+hr {
+    border-color: #333333;
+}
+
+/* ===== SCROLLBAR ===== */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #404040;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #606060;
+}
