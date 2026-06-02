@@ -23,7 +23,7 @@ col1, col2 = st.columns([2,1])
 with col1:
 
     movie_plot = st.text_area(
-        "Enter Movie Name",
+        "Enter Movie Plot",
         height=250
     )
 
